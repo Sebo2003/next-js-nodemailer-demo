@@ -1,3 +1,5 @@
+import { mailOptions, transporter } from "../../config/nodemailer";
+
 const generateEmailContent = (data) => {
 
   const stringData = Object.entries(data).reduce(
